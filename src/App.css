@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background-color: rgb(255, 0, 0);
+}
+
+.text {
+  margin-top: 12px;
+  font-weight: 600;
+}
+.text .sub {
+  margin-top: -12px;
+}
+.content {
+  width: 16rem;
+  position: relative;
+}
+
+.card:hover {
+  background-color: red;
+  color: aliceblue;
+  width: 100%;
+  top: 20px;
+}
+
+.text h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.text p {
+  font-size: 14px;
+}
